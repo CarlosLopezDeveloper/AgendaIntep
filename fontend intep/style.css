@@ -1,0 +1,23 @@
+body { font-family: 'Arial', sans-serif; margin: 0; background-color: #f4f4f4; }
+.container { max-width: 900px; margin: 50px auto; text-align: center; background: white; padding: 40px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+.logo { width: 150px; margin-bottom: 20px; }
+.btn { background-color: #00204a; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 18px; border: none; cursor: pointer; }
+.btn:hover { background-color: #003366; }
+input, select { padding: 10px; margin: 10px 0; width: 80%; border: 1px solid #ccc; }
+h1 { color: #00204a; }
+.logo-pequeno {
+    width: 80px; /* Mucho más pequeño */
+    height: auto;
+    background-color: white; /* Fondo blanco circular para que resalte */
+    border-radius: 50%;
+    padding: 2px;
+}
+.barra-superior {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #00204a; /* Color azul oscuro institucional */
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
